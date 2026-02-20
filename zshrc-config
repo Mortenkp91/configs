@@ -83,13 +83,9 @@ ZSH_THEME=""
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     git
-    zsh-syntax-highlighting
-    zsh-autosuggestions
     )
 
 source $ZSH/oh-my-zsh.sh
-
-
 
 # User configuration
 
@@ -131,8 +127,6 @@ alias zshconfig="code ~/.zshrc"
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-export PATH="$PATH:$(PWD)/veimdall-osx-arm64"
 
 alias k="kubectl"
 alias h="history"
